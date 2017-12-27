@@ -1,0 +1,77 @@
+#body{
+	background-image: url('../images/backgroundindex.jpg');
+	color: yellow;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	/*background-position: top center;*/
+	height: 100%;
+	margin: auto;
+	width: 100%;
+}
+
+.button{
+	background: rgba(255,255,255, 0);
+	width: 5%;
+	height: 30px;
+	font-weight: bold;
+	/*加粗*/
+	text-shadow:1px 1px ;
+	/*阴影*/
+	position: absolute;
+	top: 70%;
+	color: red;
+	border:0px;
+	font-size: 20px;
+	left: 35%;
+	-webkit-animation: twinkling 2s infinite ease-in-out; /*闪烁*/
+}
+@-webkit-keyframes twinkling{ /*透明度由0到1*/
+0%{
+opacity:0; /*透明度为0*/
+}
+100%{
+opacity:1; /*透明度为1*/
+
+}
+}
+ #element{
+    -webkit-animation: twinkling 2s infinite ease-in-out; /*滚动*/
+ }
+ /*对左边玩家进行进行属性设置*/
+ #div_left{
+ }
+ 
+ /*对顶部玩家进行属性设置*/
+ #div_top{
+ 	text-align:center;
+ 	margin-top:10%;
+ 	height:13%;
+ 	width:20%;
+ 	margin-left:40%;
+ }
+ /*对右边玩家进行属性设置*/
+ #div_right{
+ 	float:right;
+ 	text-align:center;
+ 	margin-right:30%;
+ 	height:30%;
+ 	width:8%
+ }
+ #div2{
+ 	position: absolute;
+ 	width: 100%;
+	top: 40%;
+ 	color: red;
+ 	height: 10%;
+ 	font-size: 30px;
+ 	text-align: center;
+ }
+ #div1{
+ 	position: absolute;
+ 	left:33%;
+ 	width: 35%;
+ 	/*margin:0px auto;*/
+ 	/*text-align: center;*/
+ 	text-align:center;
+ 	top: 45%;
+ }
